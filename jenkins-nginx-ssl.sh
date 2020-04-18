@@ -1,4 +1,4 @@
-#!/bih/bash
+#!/bin/bash
 sudo apt install nginx software-properties-common -y
 sudo rm -rf /etc/nginx/sites-enabled/default
 sudo add-apt-repository ppa:certbot/certbot
